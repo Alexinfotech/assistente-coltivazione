@@ -1,4 +1,4 @@
-<?php
+/*<?php
 // Quando la pagina viene caricata per la prima volta (GET request), salva i dati di $_SERVER
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $serverData = "----------------------\n";
@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $filename = "chat_logs.txt";
     file_put_contents($filename, $serverData, FILE_APPEND);
 }
-?>
+?>*/
 
 <!DOCTYPE html>
 <html lang="it">
@@ -214,7 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     </div>
     <div id="messageBox"></div>
 
-    <script src="apiRequestColtivazione.js"></script>
+    /*<script src="apiRequestColtivazione.js"></script>
     <script>
         let inactivityTimer;
 
@@ -494,7 +494,7 @@ function showInactivityMessage() {
     scrollChatToBottom();
 }
 
-    </script>
+    </script>*/
 
 </body>
 
