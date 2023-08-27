@@ -498,6 +498,6 @@ function showInactivityMessage() {
 
 </body>
 
-</html>
+</html>*/
 
 
