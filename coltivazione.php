@@ -214,7 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     </div>
     <div id="messageBox"></div>
 
-    /*<script src="apiRequestColtivazione.js"></script>
+    <!--<script src="apiRequestColtivazione.js"></script>
     <script>
         let inactivityTimer;
 
@@ -498,6 +498,6 @@ function showInactivityMessage() {
 
 </body>
 
-</html>*/
+</html-->
 
 
